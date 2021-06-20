@@ -1,0 +1,22 @@
+.applications-list-container {
+    padding: 1em;
+}
+
+.applications-list-container .ant-list-item {
+    margin: 1em 0;
+    box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+    padding: 10px;
+}
+
+.applications-list-container .ant-list-item-meta-title {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.applications-list-container .ant-list-item-meta-description {
+    font-size: medium;
+}
+
+.applications-list-container .post-job-container .post-job-btn{
+    margin: 1em;
+}
