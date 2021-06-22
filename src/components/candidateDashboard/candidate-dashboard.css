@@ -2,12 +2,6 @@
     padding: 1em;
 }
 
-.ant-list-vertical .ant-list-item{
-    margin: 1em 0;
-    box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
-    padding: 10px;
-}
-
 .jobs-list-container .ant-list-item-meta-title {
     font-size: medium;
     font-weight: bold;
@@ -16,3 +10,28 @@
 .jobs-list-container .ant-list-item-meta-description {
     font-size: medium;
 }
+
+.jobs-list-container .ant-divider .ant-divider-horizontal .ant-divider-with-text .ant-divider-with-text-center span {
+    font-size: small;
+}
+
+.ant-list-split .ant-list-item {
+    margin: 0 1.5em 1em 1.5em;
+    box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+    padding: 1.5em;
+}
+
+#root>div.jobs-list-container>span {
+    margin-bottom: 1em;
+}
+
+.ant-list-item-meta {
+    margin-bottom: 1em;
+}
+
+#applyJob {
+    width: 60%;
+    margin: 0 20% 0 20%;
+}
+
+#more {display: none;}

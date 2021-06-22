@@ -37,7 +37,8 @@ const SignUp = () => {
         }
         else {
             message
-                .loading('Signup in progress..', 2.5);
+                .loading('Signup in progress..', 2,
+                    () => { message.success('Sign up success! You may login now.', 1) });
             dispatch(
                 registerUserAsync({
                     username: username,

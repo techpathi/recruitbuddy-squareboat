@@ -29,7 +29,7 @@ const RecruiterDashboard = () => {
 
             }
             else {
-                message.error('Looks like we can\'t fetch the applications at this moment!');
+                message.error('Looks like there\'s no applications at this moment!');
             }
         }
 

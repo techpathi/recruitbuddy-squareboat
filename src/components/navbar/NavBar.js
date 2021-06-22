@@ -15,12 +15,11 @@ const Navbar = ({ history }) => {
     };
 
     const performCleanLogOut = () => {
-        console.log('Logout clik');
-        handleAccessToken.delete();
-        localStorage.setItem('isLoggedIn', false);
-        localStorage.removeItem('userName');
-        localStorage.removeItem('role');
         history.push('/login');
+        handleAccessToken.delete();
+        localStorage.removeItem('isLoggedIn');
+        localStorage.removeItem('username');
+        localStorage.removeItem('role');
     }
 
     return (

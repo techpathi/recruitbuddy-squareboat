@@ -41,7 +41,9 @@ const Login = ({ history }) => {
                 password: values.password
             })
         );
-
+        message
+        .loading('Logging you in..', 1,
+            () => { message.success('Log in success!', 1) });
     };
 
     return (

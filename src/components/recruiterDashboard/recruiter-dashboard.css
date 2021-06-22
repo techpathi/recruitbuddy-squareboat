@@ -20,3 +20,9 @@
 .applications-list-container .post-job-container .post-job-btn{
     margin: 1em;
 }
+
+.ant-list-split .ant-list-item {
+    margin: 0 1.5em 1em 1.5em;
+    box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+    padding: 1.5em;
+}
